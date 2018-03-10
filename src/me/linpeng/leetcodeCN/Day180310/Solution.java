@@ -4,7 +4,7 @@
 */
 package me.linpeng.leetcodeCN.Day180310;
 
-class Solution {
+class Solution1 {
     public int reverse(int x) {
     	int Max=214748364;
     	int Min=-2147483648;
