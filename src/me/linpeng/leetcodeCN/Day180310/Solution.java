@@ -21,5 +21,6 @@ class Solution1 {
     	}
     	else
     		return result;
+    	
     }
 }
