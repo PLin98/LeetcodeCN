@@ -3,23 +3,26 @@
 假设我们的环境只能处理 32 位 int 范围内的整数。根据这个假设，如果颠倒后的结果超过这个范围，则返回 0。
 */
 package me.linpeng.leetcodeCN.Day180310;
-
-class Solution1 {
+class Solution {
     public int reverse(int x) {
-    	int Max=214748364;
-    	int Min=-2147483648;
-    	int result=0;
-    	int temp=x;
-    	while(temp!=0)
-    	{
-    		result=result*10+temp%10;
-    		temp=temp/10;
-    	}
-    	if(result>Max||result<Min)
-    	{
-    		return 0;
-    	}
+    	long Max=2147483647;
+    	long Min=-2147483648;
+    	long result=0;
+    	long temp=x;
+    	int a=0;
+    	if(temp>Max||temp<Min)
+    		return a;
     	else
-    		return result;
+    	{
+	    	while(temp!=0)
+	    	{
+	    		result=result*10+temp%10;
+	    		temp=temp/10;
+	    	}
+	    	if(result>Max||result<Min)
+	    		return a;
+	    	else
+	    		return (int)result;
+    	}
     }
 }
