@@ -22,7 +22,7 @@ class Solution {
         for(i=1;i<=n;i++)
         {
         	k=b;
-        	b=a;
+        	b=a+b;
         	a=k;
         }
         return b;
