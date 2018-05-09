@@ -3,7 +3,7 @@
 注意事项:
 必须在原数组上操作，不要为一个新数组分配额外空间。
 尽量减少操作总数。*/
-package zone.lin.leetcodeCN.Y2018.M05.D8;
+package zone.lin.leetcodeCN.Y2018.M05.D08;
 class Solution {
     public void moveZeroes(int[] nums) {
         int a=0;
