@@ -52,4 +52,11 @@ public class Transform {
 		}
 		return hz;
 	}
+	
+	public static void main(String[] args) {
+		Transform t=new Transform();
+		for (int i = 0; i < 100000001; i+=1000) {
+			System.out.println(t.transform(i));
+		}
+	}
 }
