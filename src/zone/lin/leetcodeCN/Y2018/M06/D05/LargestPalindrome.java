@@ -6,7 +6,7 @@
 解释: 99 x 91 = 9009, 9009 % 1337 = 987
 说明:
 n 的取值范围为 [1,8]。*/
-package zone.lin.leetcodeCN.Y2018.M06;
+package zone.lin.leetcodeCN.Y2018.M06.D05;
 class Solution {
     public int largestPalindrome(int n) {
         if(n==1)
