@@ -7,12 +7,12 @@
  0 : 恭喜！你猜对了！
 示例:
 n = 10, 我选择 6.
-返回 6.*/
+返回 6.
 package zone.lin.leetcodeCN.Y2018.M05.D19;
-/* The guess API is defined in the parent class GuessGame.
+ The guess API is defined in the parent class GuessGame.
 @param num, your guess
 @return -1 if my number is lower, 1 if my number is higher, otherwise return 0
-   int guess(int num); */
+   int guess(int num); 
 
 class Solution extends GuessGame {
 	 public int guessNumber(int n) {
@@ -36,3 +36,4 @@ class Solution extends GuessGame {
 		return 0;
 	}
 }
+*/
